@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 app.use('',routes)
 
-
-app.listen(process.env.port,function(){
-    console.log('application running on port no: ',process.env.port)
+let PORT = 3000||process.env.port
+app.listen(PORT,function(){
+    console.log('application running on port no: ',PORT)
 })
