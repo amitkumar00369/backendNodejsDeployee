@@ -11,8 +11,8 @@ const userReg=[
         return true;
     }),
     check('password').notEmpty().withMessage('This field is require'),
-    check('mobileNo').notEmpty().withMessage('This field is require'),
-    check('isActive').notEmpty().withMessage('This field is require')
+    check('mobileNo').notEmpty().withMessage('This field is require')
+    
 ]
 
 module.exports={userReg}
