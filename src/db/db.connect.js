@@ -7,4 +7,3 @@ mongoose.connect(db).then(()=>{
 },()=>{
     console.log("database has not connected")
 })
-//last done
